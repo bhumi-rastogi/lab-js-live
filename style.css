@@ -1,0 +1,32 @@
+#blog {
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  grid-column-gap: 1em;
+}
+
+.article {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px 1px rgba(7, 7, 7, 0.2);
+  margin-top: 19.9%;
+  margin-left:4% ;
+  padding: 11%;
+  text-align: left;
+  width: 51%;
+}
+
+.article img{
+  width: 98px;
+  height: 98px;
+}
+
+.article>.strength {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.article:hover{
+  transform: scale(1.13);
+  box-shadow: 4px 4px 14px rgba(8, 8, 8, 0.6);
+  background-color: rgb(172, 98, 29);
+}
